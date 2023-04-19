@@ -1,0 +1,25 @@
+{
+  "name": "typescript4-scaffold-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "tsc -v",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimothyLee-A-Fong/typescript4-scaffold-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TimothyLee-A-Fong/typescript4-scaffold-demo/issues"
+  },
+  "homepage": "https://github.com/TimothyLee-A-Fong/typescript4-scaffold-demo#readme"
+}
