@@ -6,10 +6,19 @@
   "dependencies": {
     "typescript": "^4.2.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.2",
+    "ts-loader": "^9.4.2",
+    "webpack": "^5.80.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.3"
+  },
   "scripts": {
     "test": "tsc -v",
-    "build": "tsc"
+    "build": "tsc",
+    "watch": "tsc -w",
+    "webpack": "webpack",
+    "dev": "webpack serve"
   },
   "repository": {
     "type": "git",
